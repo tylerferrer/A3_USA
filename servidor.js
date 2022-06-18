@@ -30,7 +30,7 @@ app.post('/add', function (req, res) {
             if (err) {
                 return console.log(err.message);
             }
-            console.log("Tudo funcionando por aqui!");
+            res.send("Envio de formulário feito com sucesso!");
         });
     });
 });
