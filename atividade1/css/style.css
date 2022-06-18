@@ -1,75 +1,77 @@
 body {
-    width: 100%;
-    color: black;
-    min-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline;
-    justify-content: center;
-    align-items: center;
-
+  width: 100%;
+  color: black;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    width: 90%;
-    height: 25vh;
-    margin: auto;
-    overflow: auto;
-    box-shadow: 0 0 5px rgb(0, 61, 153);
-    text-align: center;
-    position: static;
-    background-color: #4682B4;
-    padding: 15px 2%;
+  width: 90%;
+  height: 25vh;
+  margin: auto;
+  overflow: auto;
+  box-shadow: 0 0 5px rgb(0, 61, 153);
+  text-align: center;
+  position: relative;
+  background-color: #4682b4;
+  padding: 10px 1%;
+  line-height: 50%;
 }
 
 .container::-webkit-scrollbar {
-    width: 14px;
-    border: 1px solid #4682B4;
+  width: 14px;
+  border: 1px solid #4682b4;
 }
 
 .container::-webkit-scrollbar-thumb {
-    background-color: #4682B4;
-    border-radius: 6px;
+  background-color: #4682b4;
+  border-radius: 6px;
 }
 
 .container_2 {
-    width: 95%;
-    height: 25vh;
-    margin: auto;
-    overflow: auto;
-    text-align: center;
-    position: static;
-    padding: 15px 2%;
+  width: 95%;
+  height: 25vh;
+  margin: auto;
+  overflow: auto;
+  text-align: center;
+  position: static;
+  padding: 15px 2%;
+  line-height: 45%;
 }
 
 .container_2::-webkit-scrollbar {
-    width: 14px;
-    border: 0px solid;
+  width: 14px;
+  border: 0px solid;
 }
 
 .container_2::-webkit-scrollbar-thumb {
-    border-radius: 6px;
+  border-radius: 6px;
 }
 
 .dados_pessoais {
-    margin: auto;
-    height: auto;
-    overflow: auto;
-    padding: 0;
-    text-align: center;
+  margin: auto;
+  height: auto;
+  overflow: auto;
+  position: relative;
+  padding: 0;
+  text-align: center;
 }
 
 .hr_border {
-    border-style: solid;
-    background-color: #4682B4;
-    height: 1px;
-    width: 98%;
-    padding: 0;
+  border-style: solid;
+  background-color: #4682b4;
+  height: 1px;
+  width: 98%;
+  padding: 0;
 }
 
 .dados_profissionais {
-    margin-top: 10px;
-    height: 5px;
-    overflow: visible;
-    padding: 0;
-    text-align: center;
+  margin-top: 10px;
+  height: 5px;
+  overflow: visible;
+  padding: 0;
+  text-align: center;
 }
