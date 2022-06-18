@@ -1,3 +1,4 @@
+/* Estilização do body */
 body {
   width: 100%;
   color: black;
@@ -8,6 +9,7 @@ body {
   align-items: center;
 }
 
+/* Estilização do primeiro container onde ficará as informações pessoais */
 .container {
   width: 90%;
   height: 25vh;
@@ -21,6 +23,7 @@ body {
   line-height: 50%;
 }
 
+/* Estilização da barra de rolagem para que fique "invisivel" */
 .container::-webkit-scrollbar {
   width: 14px;
   border: 1px solid #4682b4;
@@ -31,6 +34,7 @@ body {
   border-radius: 6px;
 }
 
+/* Estilização do segundo container onde ficará as informações profissionais e academicas */
 .container_2 {
   width: 95%;
   height: 25vh;
@@ -42,6 +46,7 @@ body {
   line-height: 45%;
 }
 
+/* Estilização da barra de rolagem para que fique "invisivel" */
 .container_2::-webkit-scrollbar {
   width: 14px;
   border: 0px solid;
@@ -51,6 +56,7 @@ body {
   border-radius: 6px;
 }
 
+/* Estilização das informações pessoais */
 .dados_pessoais {
   margin: auto;
   height: auto;
@@ -60,6 +66,7 @@ body {
   text-align: center;
 }
 
+/* Estilização das bordas que separam os setores de informações */
 .hr_border {
   border-style: solid;
   background-color: #4682b4;
@@ -67,7 +74,7 @@ body {
   width: 98%;
   padding: 0;
 }
-
+/* Estilização das informações profissionais */
 .dados_profissionais {
   margin-top: 10px;
   height: 5px;

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulário</title>
+  <link rel="stylesheet" href="css/form.css" />
+</head>
+
+<body>
+  <div>
+    <h1 id="titulo">Cadastro de alunos</h1>
+  </div>
+  <form action="" method="POST">
+    <fieldset class="alunos">
+      <div class="campo">
+        <label for="nome"><strong>Nome</strong></label>
+        <input type="text" name="nome" id="nome" maxlength="20" required />
+      </div>
+      <div class="campo">
+        <label for="sobrenome"><strong>Sobrenome</strong></label>
+        <input type="text" name="sobrenome" id="sobrenome" maxlength="20" required />
+      </div>
+      <div class="campo">
+        <label for="email"><strong>E-mail</strong></label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div class="campo">
+        <label for="ra"><strong>RA</strong></label>
+        <input name="ra" id="ra" required 
+        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+        type = "number"
+        maxlength = "15"/>
+      </div>
+      <div class="campo">
+        <label for="curso"><strong>Curso</strong></label>
+        <input type="text" name="curso" id="curso" required />
+      </div>
+      <div class="campo">
+        <label for="ano"><strong>Ano de Ingresso</strong></label>
+        <input name="ano" id="ano" required 
+        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+        type = "number"
+        maxlength = "4"/>
+      </div>
+    </fieldset>
+    <button class="botao" type="submit" onsubmit="">Cadastrar</button>  
+  </form>
+</body>
+
+</html>
