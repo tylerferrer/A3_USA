@@ -19,6 +19,9 @@
   "homepage": "https://github.com/tylerferrer/A3_USA#readme",
   "dependencies": {
     "body-parser": "^1.20.0",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.4.0",
+    "helmet": "^5.1.0",
+    "sqlite3": "^5.0.8"
   }
 }
