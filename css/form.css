@@ -60,20 +60,20 @@ button {
     display: table;
 }
 
-/* Elementos de classe "campo" de tag <label> */
+/* Estiliza os elementos de classe campo de tag label */
 .campo label {
     margin-bottom: 0.2em;
     color: #59429d;
     display: block;
 }
 
-/* Elementos de classe "campo" ou "grupo" de tag <fieldset> */
+/* Estiliza os elementos campo e grupo da tag fieldset */
 fieldset.grupo .campo {
     float: left;
     margin-right: 1em;
 }
 
-/* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
+/* Estiliza os elementos de classe "campo" das tags input com atributo text e email, da tag select e da tag textarea*/
 .campo input[type="text"],
 .campo input[type="number"],
 .campo input[type="email"],
@@ -95,12 +95,12 @@ input[type=number] {
 
 }
 
-/* Elementos de classe "campo" de tag <select> e <option>*/
+/* Estiliza os elementos campo de tag select e option*/
 .campo select option {
     padding-right: 1em;
 }
 
-/* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
+/* Estiliza os elementos focus das classes input, select e textarea*/
 .campo input:focus,
 .campo select:focus,
 .campo textarea:focus {
@@ -108,7 +108,7 @@ input[type=number] {
     outline: 0;
 }
 
-/* Elemento de classe "botao" */
+/* Estiliza os elementos de botão */
 .botao {
     font-size: 1.2em;
     background: #941FA3;
@@ -120,19 +120,19 @@ input[type=number] {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 90%;
-    left: 50%;
+    left: 55%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-100%, -100%)
 }
 
-/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+/* Estiliza os elementos hover do botão */
 .botao:hover {
     background: #CCBBFF;
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: none;
 }
 
-/* Elementos de classe botão e de tag <select> */
+/* Estiliza os elementos o elemento select do botão */
 .botao,
 select {
     cursor: pointer;
