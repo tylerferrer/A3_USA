@@ -10,11 +10,13 @@
 </head>
 
 <body>
+  <!-- Título da tela -->
   <div>
     <h1 id="titulo">Cadastro de alunos</h1>
   </div>
   <form action="/add" method="POST">
     <fieldset class="alunos">
+      <!-- Campos de preenchimento dos dados -->
       <div class="campo">
         <label for="nome"><strong>Nome</strong></label>
         <input type="text" name="nome" id="nome" maxlength="20" required />
@@ -44,6 +46,7 @@
           type="number" maxlength="4" />
       </div>
     </fieldset>
+    <!-- Botão de cadastro -->
     <button class="botao" type="submit" onsubmit="">Cadastrar</button>
   </form>
 </body>
