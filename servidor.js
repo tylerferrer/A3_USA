@@ -35,15 +35,15 @@ app.post('/add', function (req, res) {
     });
 });
 
-app.get('/close', function(req,res){
+app.get('/close', function (req, res) {
     db.close((err) => {
-      if (err) {
-        res.send('Não foi possivel fechar a conexão.');
-        return console.error(err.message);
-      }
-      console.log('Fechando sua conexão com o banco, aguarde.');
-      res.send('Conexão fechada com sucesso!');
+        if (err) {
+            res.send('Não foi possivel fechar a conexão.');
+            return console.error(err.message);
+        }
+        console.log('Fechando sua conexão com o banco, aguarde.');
+        res.send('Conexão fechada com sucesso!');
     });
-  });
+});
 
 app.listen(3000)
